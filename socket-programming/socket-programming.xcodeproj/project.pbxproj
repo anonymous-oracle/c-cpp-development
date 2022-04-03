@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		AD195FF827F8639600326E57 /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = AD195FF727F8639600326E57 /* client.c */; };
 		AD195FFA27F863B200326E57 /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = AD195FF927F863B200326E57 /* server.c */; };
+		AD568C2F27F9E6DA0038AF9C /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = AD568C2E27F9E6DA0038AF9C /* server.c */; };
+		AD568C3127F9E7270038AF9C /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = AD568C3027F9E7270038AF9C /* client.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		AD195FED27F8568000326E57 /* socket-programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "socket-programming"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD195FF727F8639600326E57 /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
 		AD195FF927F863B200326E57 /* server.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
+		AD568C2E27F9E6DA0038AF9C /* server.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = server.c; path = "socket-programming2/server.c"; sourceTree = SOURCE_ROOT; };
+		AD568C3027F9E7270038AF9C /* client.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = client.c; path = "socket-programming2/client.c"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,7 @@
 		AD195FE427F8568000326E57 = {
 			isa = PBXGroup;
 			children = (
+				AD568C2D27F9E6770038AF9C /* New Group */,
 				AD195FEF27F8568000326E57 /* socket-programming */,
 				AD195FEE27F8568000326E57 /* Products */,
 			);
@@ -63,6 +68,15 @@
 				AD195FF927F863B200326E57 /* server.c */,
 			);
 			path = "socket-programming";
+			sourceTree = "<group>";
+		};
+		AD568C2D27F9E6770038AF9C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				AD568C2E27F9E6DA0038AF9C /* server.c */,
+				AD568C3027F9E7270038AF9C /* client.c */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD568C3127F9E7270038AF9C /* client.c in Sources */,
 				AD195FFA27F863B200326E57 /* server.c in Sources */,
+				AD568C2F27F9E6DA0038AF9C /* server.c in Sources */,
 				AD195FF827F8639600326E57 /* client.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
